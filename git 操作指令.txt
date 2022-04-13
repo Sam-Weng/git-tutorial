@@ -1,0 +1,34 @@
+git 操作指令
+
+Git 的本地操作指令
+
+git init   -----  第一次啟用軟體初始化
+
+git config -- global user.name "sam"
+git config --global user.email "kobrue@gmail.com"
+
+
+ll    查看目錄與檔案
+
+mkdir git-tutorial    建立資料夾
+
+touch README.md       建立空檔案
+
+git status            檢查檔案狀態
+
+git add README.md     加入檔案 README.md stage資料夾
+
+git add -A            加入所有異動檔案到 stage資料夾
+
+git commit -m "20220413 sam modified"   確認檔案更新到master資料夾
+
+git remote add origin https://github.com/Sam-Weng/git-tutorial.git  上載檔案到遠端github主機資料夾
+
+git push -u origin master                                           更新檔案到遠端主機
+
+
+
+git clone  https://github.com/Sam-Weng/git-tutorial.git git-demo    複製倉庫到本地端 git-demo資料夾
+
+
+git remote -v                                                       檢查遠端狀態
