@@ -35,10 +35,6 @@ git clone  https://github.com/Sam-Weng/git-tutorial.git git-demo    複製倉庫
 
 git remote -v                                                       檢查遠端狀態
 
-git branch                                                          查詢所有本地分支
-
-git branch -a                                                       查詢所有遠端分支
-
 git branch feature1                                                 建立 branch feature1
 
 git checkout feature1                                               切換 branch feature1
